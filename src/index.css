@@ -52,3 +52,8 @@
   box-shadow: inset 14px -6px 20px rgba(255, 255, 255, 0.3),
     inset -10px 20px 40px rgba(130, 34, 152, 0.4);
 }
+
+.join-private-sales {
+  background: #1c281f;
+  box-shadow: 0px 8px 25px rgba(31, 229, 68, 0.43);
+}
