@@ -1,7 +1,9 @@
+import Navbar from "layouts/Navbar";
+
 function App() {
   return (
     <div>
-      <h1>Abdullah Mehboob</h1>
+      <Navbar />
     </div>
   );
 }

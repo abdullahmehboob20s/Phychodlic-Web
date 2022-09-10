@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-Rubik text-white;
+  }
+
+  html {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .container {
+    /* 1440px = 90rem */
+    /* 1600px = 100rem */
+
+    @apply w-[80%] max-w-[90rem] mx-auto;
+  }
+}
