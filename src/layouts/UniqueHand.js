@@ -3,7 +3,7 @@ import React from "react";
 
 function UniqueHand() {
   return (
-    <div className="pb-200px">
+    <div className="pb-20 lg:pb-36 xl:pb-200px">
       <div className="container">
         <div className="mb-10 md:mb-16 lg:mb-20">
           <Title>

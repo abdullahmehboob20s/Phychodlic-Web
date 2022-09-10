@@ -30,7 +30,7 @@
     @apply mb-[100px];
   }
   .mb-150px {
-    @apply mb-[150px];
+    @apply xl:mb-[150px];
   }
   .mb-200px {
     @apply mb-[200px];
