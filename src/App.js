@@ -20,16 +20,16 @@ function App() {
         <About />
       </div>
       <UniqueHand />
-      <div className="mb-24 sm:mb-28 lg:mb-36 xl:mb-200px">
+      <div className="mb-24 sm:mb-28 lg:mb-36 xl:mb-200px" id="The Utility">
         <Utility />
       </div>
       <div className="mb-24 sm:mb-28 lg:mb-36 xl:mb-200px">
         <BlotingPaper />
       </div>
-      <div className="mb-24 sm:mb-28 lg:mb-36 xl:mb-200px">
+      <div className="mb-24 sm:mb-28 lg:mb-36 xl:mb-200px" id="RoadMap">
         <Roadmap />
       </div>
-      <div className="mb-24 xl:mb-150px">
+      <div className="mb-24 xl:mb-150px" id="The team">
         <Team />
       </div>
       <div className="mb-24 sm:mb-28 lg:mb-36 xl:mb-200px">

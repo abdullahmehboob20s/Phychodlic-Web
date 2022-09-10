@@ -6,11 +6,11 @@
 
 @layer base {
   * {
-    @apply font-Rubik text-white;
+    @apply font-Rubik text-white scroll-smooth;
   }
 
   html {
-    @apply bg-black text-white;
+    @apply bg-black text-white scroll-smooth;
   }
 }
 

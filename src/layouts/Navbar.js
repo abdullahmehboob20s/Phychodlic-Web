@@ -2,10 +2,12 @@ import OutsideClickDetector from "hooks/OutsideClickDetector";
 import React, { useEffect, useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { RiCloseFill } from "react-icons/ri";
+import { Link as ScrollLink } from "react-scroll";
 
 function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const sidebarRef = OutsideClickDetector(() => setIsSidebarOpen(false));
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     if (isSidebarOpen) {
@@ -15,8 +17,26 @@ function Navbar() {
     }
   }, [isSidebarOpen]);
 
+  useEffect(() => {
+    const scrollHandler = () => {
+      if (window.scrollY > 200) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    document.addEventListener("scroll", scrollHandler);
+  });
+
   return (
-    <div className="h-16 lg:h-20 xl:h-24 2xl:h-28 flex items-center fixed top-0 left-0 w-full z-100">
+    <div
+      className={`h-16 lg:h-20 xl:h-24 2xl:h-28 flex items-center fixed top-0 left-0 w-full z-100 transition-all duration-[.3s] border-b-2 ${
+        isScrolled
+          ? "bg-black border-[#1fe5435e]"
+          : "bg-transparent border-transparent"
+      }`}
+    >
       <div className="container flex items-center justify-between">
         <img
           src="images/logo.png"
@@ -59,24 +79,30 @@ function Navbar() {
               <RiCloseFill />
             </button>
 
-            <a
-              href="/"
-              className="text-xs xl:text-sm 2xl:text-base font-medium text-white"
+            <ScrollLink
+              to="RoadMap"
+              offset={-160}
+              onClick={() => setIsSidebarOpen(false)}
+              className="cursor-pointer text-xs xl:text-sm 2xl:text-base font-medium text-white"
             >
               RoadMap
-            </a>
-            <a
-              href="/"
-              className="text-xs xl:text-sm 2xl:text-base font-medium text-white mt-4 md:mt-0"
+            </ScrollLink>
+            <ScrollLink
+              to="The Utility"
+              offset={-160}
+              onClick={() => setIsSidebarOpen(false)}
+              className="cursor-pointer text-xs xl:text-sm 2xl:text-base font-medium text-white mt-4 md:mt-0"
             >
               The Utility
-            </a>
-            <a
-              href="/"
-              className="text-xs xl:text-sm 2xl:text-base font-medium text-white mt-4 md:mt-0"
+            </ScrollLink>
+            <ScrollLink
+              to="The team"
+              offset={-160}
+              onClick={() => setIsSidebarOpen(false)}
+              className="cursor-pointer text-xs xl:text-sm 2xl:text-base font-medium text-white mt-4 md:mt-0"
             >
               The team
-            </a>
+            </ScrollLink>
 
             <button className="w-full md:w-auto mt-8 md:mt-0 gradient-button text-[10px] xl:text-xs 2xl:text-sm py-2 2xl:py-3 px-5 2xl:px-7">
               CONNECT WALLET
