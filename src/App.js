@@ -13,13 +13,13 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="">
+      <div className="mb-150px">
         <Hero />
       </div>
-      {/* <div className="mb-200px">
+      <div className="mb-200px">
         <About />
       </div>
-      <UniqueHand />
+      {/* <UniqueHand />
       <div className="mb-200px">
         <Utility />
       </div>
