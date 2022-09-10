@@ -16,11 +16,11 @@ function Navbar() {
   }, [isSidebarOpen]);
 
   return (
-    <div className="h-20 xl:h-24 2xl:h-28 flex items-center fixed top-0 left-0 w-full z-100">
+    <div className="h-16 lg:h-20 xl:h-24 2xl:h-28 flex items-center fixed top-0 left-0 w-full z-100">
       <div className="container flex items-center justify-between">
         <img
           src="images/logo.png"
-          className="w-16 sm:w-20 xl:w-24 2xl:w-28"
+          className="w-16 sm:w-16 lg:w-20 xl:w-24 2xl:w-28"
           alt=""
         />
 

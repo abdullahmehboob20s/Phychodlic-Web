@@ -42,6 +42,12 @@ module.exports = {
         "250px": "250px",
         "300px": "300px",
       },
+
+      fontSize: {
+        "6px": "6px",
+        "8px": "8px",
+        "10px": "10px",
+      },
     },
   },
   plugins: [],
