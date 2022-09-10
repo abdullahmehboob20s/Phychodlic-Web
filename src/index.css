@@ -25,4 +25,30 @@
   .gradient-button {
     @apply bg-green-to-blue rounded-full text-white font-semibold uppercase;
   }
+
+  .mb-100px {
+    @apply mb-[100px];
+  }
+  .mb-150px {
+    @apply mb-[150px];
+  }
+  .mb-200px {
+    @apply mb-[200px];
+  }
+
+  .pb-100px {
+    @apply pb-[100px];
+  }
+  .pb-150px {
+    @apply pb-[150px];
+  }
+  .pb-200px {
+    @apply pb-[200px];
+  }
+}
+
+.box-styling {
+  background: linear-gradient(180deg, #013c43 -1.32%, #1f0021 100%);
+  box-shadow: inset 14px -6px 20px rgba(255, 255, 255, 0.3),
+    inset -10px 20px 40px rgba(130, 34, 152, 0.4);
 }
