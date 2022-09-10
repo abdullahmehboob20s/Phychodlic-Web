@@ -19,8 +19,8 @@ function App() {
       <div className="mb-200px">
         <About />
       </div>
-      {/* <UniqueHand />
-      <div className="mb-200px">
+      <UniqueHand />
+      {/* <div className="mb-200px">
         <Utility />
       </div>
       <div className="mb-200px">
