@@ -10,6 +10,7 @@ module.exports = {
       black: "#000000",
       white: "#ffffff",
       green: "#1FE544",
+      "light-gray": "rgba(255, 255, 255, 0.1)",
     },
     backgroundImage: {
       "green-to-blue":
