@@ -1,4 +1,5 @@
 import About from "layouts/About";
+import BlotingPaper from "layouts/BlotingPaper";
 import Hero from "layouts/Hero";
 import Navbar from "layouts/Navbar";
 import UniqueHand from "layouts/UniqueHand";
@@ -15,8 +16,11 @@ function App() {
         <About />
       </div>
       <UniqueHand />
-      <div className="mb-100px">
+      <div className="mb-200px">
         <Utility />
+      </div>
+      <div className="mb-100px">
+        <BlotingPaper />
       </div>
     </div>
   );
