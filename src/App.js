@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="mb-100px">
+      {/* <div className="mb-100px">
         <Hero />
       </div>
       <div className="mb-200px">
@@ -35,7 +35,7 @@ function App() {
       <div className="mb-200px">
         <JoinPrivateSale />
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
