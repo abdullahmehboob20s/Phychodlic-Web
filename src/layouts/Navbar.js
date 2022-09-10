@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="h-28 flex items-center fixed top-0 left-0 w-full">
+    <div className="h-28 flex items-center fixed top-0 left-0 w-full z-100">
       <div className="container flex items-center justify-between">
         <img src="images/logo.png" className="w-28" alt="" />
 
