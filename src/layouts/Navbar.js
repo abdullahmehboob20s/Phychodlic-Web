@@ -7,13 +7,13 @@ function Navbar() {
         <img src="images/logo.png" className="w-28" alt="" />
 
         <div className="flex items-center space-x-10">
-          <a href="#" className="text-sm 2xl:text-base font-medium text-white">
+          <a href="#" className="text-base font-medium text-white">
             RoadMap
           </a>
-          <a href="#" className="text-sm 2xl:text-base font-medium text-white">
+          <a href="#" className="text-base font-medium text-white">
             The Utility
           </a>
-          <a href="#" className="text-sm 2xl:text-base font-medium text-white">
+          <a href="#" className="text-base font-medium text-white">
             The team
           </a>
 

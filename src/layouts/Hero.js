@@ -2,10 +2,10 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="pt-32">
+    <div className="h-screen max-h-[900px] flex items-center">
       <div className="container flex items-center">
         <div className="flex-1">
-          <h1 className="text-5xl 2xl:text-6xl text-white font-medium capitalize leading-[1.2] mb-12">
+          <h1 className="text-6xl text-white font-medium capitalize leading-[1.2] mb-12">
             Celebrating the <br /> work and
             <span className="text-green"> healling</span> <br /> of psychodlic
           </h1>
