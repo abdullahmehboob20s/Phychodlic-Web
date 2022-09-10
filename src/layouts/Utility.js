@@ -20,7 +20,7 @@ function Utility() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-y-6 lg:gap-y-0 w-full max-w-[14rem] xs:max-w-[26rem] lg:max-w-none mx-auto lg:mx-0 items-stretch">
+        <div className="relative grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-y-6 lg:gap-y-0 w-full max-w-[14rem] xs:max-w-[26rem] lg:max-w-none mx-auto lg:mx-0 items-stretch">
           <UtilityCard
             img="images/eye-1.png"
             desc="Line fur very history; Time. Little. Follow expected win in star were name on is trust,"
@@ -36,6 +36,12 @@ function Utility() {
           <UtilityCard
             img="images/eye-2.png"
             desc="Line fur very history; Time. Little. Follow expected win in star were name on is trust, rely this that of too, "
+          />
+
+          <img
+            src="images/green-blob.png"
+            className="absolute top-1/2 -translate-y-1/2 right-[-10%] w-[90%] -z-100"
+            alt=""
           />
         </div>
       </div>

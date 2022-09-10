@@ -12,6 +12,10 @@
   html {
     @apply bg-black text-white scroll-smooth overflow-x-hidden;
   }
+
+  body {
+    @apply overflow-x-hidden;
+  }
 }
 
 @layer components {
