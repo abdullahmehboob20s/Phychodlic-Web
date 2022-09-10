@@ -1,6 +1,7 @@
 import About from "layouts/About";
 import BlotingPaper from "layouts/BlotingPaper";
 import Hero from "layouts/Hero";
+import JoinPrivateSale from "layouts/JoinPrivateSale";
 import Navbar from "layouts/Navbar";
 import Team from "layouts/Team";
 import UniqueHand from "layouts/UniqueHand";
@@ -23,8 +24,11 @@ function App() {
       <div className="mb-200px">
         <BlotingPaper />
       </div>
-      <div className="mb-200px">
+      <div className="mb-150px">
         <Team />
+      </div>
+      <div className="mb-200px">
+        <JoinPrivateSale />
       </div>
     </div>
   );
