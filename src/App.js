@@ -20,10 +20,10 @@ function App() {
         <About />
       </div>
       <UniqueHand />
-      {/* <div className="mb-200px">
+      <div className="mb-200px">
         <Utility />
       </div>
-      <div className="mb-200px">
+      {/* <div className="mb-200px">
         <BlotingPaper />
       </div>
       <div className="mb-200px">

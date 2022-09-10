@@ -1,12 +1,15 @@
+import Title from "components/Title";
 import React from "react";
 
 function UniqueHand() {
   return (
     <div className="pb-200px">
       <div className="container">
-        <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-center text-white font-semibold mb-10 md:mb-16 lg:mb-20 xl:mb-28">
-          Unique Hand <span className="text-green">Design</span>
-        </h1>
+        <div className="mb-10 md:mb-16 lg:mb-20">
+          <Title>
+            Unique Hand <span className="text-green">Design</span>
+          </Title>
+        </div>
 
         <div className="flex flex-col md:flex-row items-start md:space-x-8 space-y-8 md:space-y-0">
           <div className="md:flex-[.8] lg:flex-1 flex items-center justify-center w-full">

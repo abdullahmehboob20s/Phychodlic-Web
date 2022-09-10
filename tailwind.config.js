@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const { screens } = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -21,6 +23,10 @@ module.exports = {
     },
     boxShadow: {
       "team-card": "0px 4px 9px rgba(0, 0, 0, 0.37)",
+    },
+    screens: {
+      xs: "500px",
+      ...screens,
     },
     extend: {
       zIndex: {
