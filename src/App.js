@@ -1,5 +1,6 @@
 import About from "layouts/About";
 import BlotingPaper from "layouts/BlotingPaper";
+import Footer from "layouts/Footer";
 import Hero from "layouts/Hero";
 import JoinPrivateSale from "layouts/JoinPrivateSale";
 import Navbar from "layouts/Navbar";
@@ -30,6 +31,7 @@ function App() {
       <div className="mb-200px">
         <JoinPrivateSale />
       </div>
+      <Footer />
     </div>
   );
 }
