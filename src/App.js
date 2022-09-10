@@ -23,10 +23,10 @@ function App() {
       <div className="mb-200px">
         <Utility />
       </div>
-      {/* <div className="mb-200px">
+      <div className="mb-200px">
         <BlotingPaper />
       </div>
-      <div className="mb-200px">
+      {/* <div className="mb-200px">
         <Roadmap />
       </div>
       <div className="mb-150px">
