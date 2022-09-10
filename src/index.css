@@ -21,4 +21,8 @@
 
     @apply w-[80%] max-w-[90rem] mx-auto;
   }
+
+  .gradient-button {
+    @apply bg-green-to-blue rounded-full text-white font-semibold uppercase;
+  }
 }

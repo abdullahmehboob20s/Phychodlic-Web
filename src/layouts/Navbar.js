@@ -7,17 +7,17 @@ function Navbar() {
         <img src="images/logo.png" className="w-28" alt="" />
 
         <div className="flex items-center space-x-10">
-          <a href="#" className="text-base font-medium text-white">
+          <a href="#" className="text-sm 2xl:text-base font-medium text-white">
             RoadMap
           </a>
-          <a href="#" className="text-base font-medium text-white">
+          <a href="#" className="text-sm 2xl:text-base font-medium text-white">
             The Utility
           </a>
-          <a href="#" className="text-base font-medium text-white">
+          <a href="#" className="text-sm 2xl:text-base font-medium text-white">
             The team
           </a>
 
-          <button className="text-base text-white font-semibold uppercase py-3 px-5 bg-green-to-blue rounded-full">
+          <button className="gradient-button text-sm py-3 px-7">
             CONNECT WALLET
           </button>
         </div>
