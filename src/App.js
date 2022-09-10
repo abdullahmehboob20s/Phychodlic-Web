@@ -4,6 +4,7 @@ import Footer from "layouts/Footer";
 import Hero from "layouts/Hero";
 import JoinPrivateSale from "layouts/JoinPrivateSale";
 import Navbar from "layouts/Navbar";
+import Roadmap from "layouts/Roadmap";
 import Team from "layouts/Team";
 import UniqueHand from "layouts/UniqueHand";
 import Utility from "layouts/Utility";
@@ -24,6 +25,9 @@ function App() {
       </div>
       <div className="mb-200px">
         <BlotingPaper />
+      </div>
+      <div className="mb-200px">
+        <Roadmap />
       </div>
       <div className="mb-150px">
         <Team />

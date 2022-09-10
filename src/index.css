@@ -57,3 +57,29 @@
   background: #1c281f;
   box-shadow: 0px 8px 25px rgba(31, 229, 68, 0.43);
 }
+
+.roadmap-line {
+  box-shadow: 0px 0px 20px rgba(31, 230, 68, 0.6);
+  background: linear-gradient(
+    180deg,
+    rgba(31, 229, 67, 0.02),
+    #1fe544,
+    rgba(31, 229, 67, 0.02)
+  );
+}
+
+.roadmap-card {
+  background: linear-gradient(
+    180deg,
+    rgba(252, 92, 220, 0.1) 0%,
+    rgba(135, 135, 255, 0.1) 100%
+  );
+  box-shadow: inset 14px -6px 20px rgba(255, 255, 255, 0.3),
+    inset -10px 20px 40px #4c2c9f;
+}
+
+.roadmap-dot {
+  background: #1fe644;
+  box-shadow: 0px 0px 20px rgba(31, 230, 68, 0.6), inset 0px 0px 6px #034e11,
+    inset 0px 0px 4px #026414;
+}
