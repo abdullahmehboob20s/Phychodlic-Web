@@ -4,7 +4,7 @@ import React from "react";
 
 function Roadmap() {
   return (
-    <div>
+    <div className="relative py-14">
       <div className="container">
         <div className="mb-12 md:mb-16 xl:mb-20">
           <Title>
@@ -57,6 +57,12 @@ function Roadmap() {
           <div className="roadmap-line rounded-full absolute top-0 left-1/2 -translate-x-1/2 w-[2px] h-full"></div>
         </div>
       </div>
+
+      <img
+        src="images/roadmap-bg.png"
+        className="absolute top-0 left-0 w-full h-full -z-100 object-cover"
+        alt=""
+      />
     </div>
   );
 }

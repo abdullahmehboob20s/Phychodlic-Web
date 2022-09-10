@@ -4,7 +4,7 @@ import React from "react";
 
 function Team() {
   return (
-    <div>
+    <div className="relative overflow-visible">
       <div className="container">
         <div className="mb-12 lg:mb-16">
           <Title>
@@ -29,6 +29,12 @@ function Team() {
           />
         </div>
       </div>
+
+      <img
+        src="images/team-bg.png"
+        className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-100 object-cover"
+        alt=""
+      />
     </div>
   );
 }

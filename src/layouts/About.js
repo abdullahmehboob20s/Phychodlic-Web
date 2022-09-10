@@ -5,7 +5,7 @@ function About() {
   const isAbove640px = useMediaQuery("(min-width : 640px)");
 
   return (
-    <div className={isAbove640px ? null : "box-styling"}>
+    <div className={`relative ${isAbove640px ? null : "box-styling"}`}>
       <div className="container flex items-center justify-center">
         <div
           className={`${
@@ -29,6 +29,18 @@ function About() {
           />
         </div>
       </div>
+
+      <img
+        src="images/green-blob.png"
+        className="absolute top-1/2 -translate-y-1/2 right-[-30%] -z-100 w-[80%]"
+        alt=""
+      />
+
+      <img
+        src="images/purple-blob.png"
+        className="absolute top-1/2 -translate-y-1/2 left-[-30%] -z-100 w-[80%]"
+        alt=""
+      />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="h-auto lg:h-screen max-h-[900px] flex pt-100px lg:pt-0 lg:items-center">
+    <div className="relative h-auto lg:h-screen max-h-[900px] flex pt-100px lg:pt-0 lg:items-center">
       <div className="container flex flex-col lg:flex-row text-center lg:text-left lg:items-center space-y-10 lg:space-y-0">
         <div className="flex-1">
           <h1
@@ -26,6 +26,18 @@ function Hero() {
           />
         </div>
       </div>
+
+      {/* BLOBS */}
+      <img
+        src="images/green-blob.png"
+        className="absolute w-[100%] top-[-70%] left-[-40%] -z-100"
+        alt=""
+      />
+      <img
+        src="images/purple-blob.png"
+        className="absolute top-[50%] w-[70%] -translate-y-1/2 right-[-30%] -z-100"
+        alt=""
+      />
     </div>
   );
 }

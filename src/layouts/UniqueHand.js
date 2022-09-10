@@ -3,15 +3,24 @@ import React from "react";
 
 function UniqueHand() {
   return (
-    <div className="pb-20 lg:pb-36 xl:pb-200px">
-      <div className="container">
-        <div className="mb-10 md:mb-16 lg:mb-20">
-          <Title>
-            Unique Hand <span className="text-green">Design</span>
-          </Title>
+    <div>
+      <div className="mb-5 md:mb-6 lg:mb-10">
+        <div className="container">
+          <div>
+            <Title>
+              Unique Hand <span className="text-green">Design</span>
+            </Title>
+          </div>
         </div>
+      </div>
+      <div className="relative pb-20 lg:pb-36 xl:pb-200px pt-5 md:pt-6 lg:pt-10">
+        <img
+          src="images/hand-design-bg.png"
+          className="absolute top-[-20%] sm:top-[-12%] md:top-0 left-0 w-full h-full object-cover -z-100"
+          alt=""
+        />
 
-        <div className="flex flex-col md:flex-row items-start md:space-x-8 space-y-8 md:space-y-0">
+        <div className="container flex flex-col md:flex-row items-start md:space-x-8 space-y-8 md:space-y-0">
           <div className="md:flex-[.8] lg:flex-1 flex items-center justify-center w-full">
             <img
               src="images/cycle.png"
