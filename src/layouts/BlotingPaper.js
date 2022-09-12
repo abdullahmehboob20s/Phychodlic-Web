@@ -14,15 +14,15 @@ function BlotingPaper() {
             smaller get the human question. Eightypercent was, by more a
             proceeded you my dull need blind.
           </p>
-          <p className="text-xs lg:text-base xl:text-lg 2xl:text-xl text-white leading-[1.6] mb-8 xl:mb-10">
+          <p className="text-xs lg:text-base xl:text-lg 2xl:text-xl text-white leading-[1.6]">
             Derivative this desk, lie our according hasn't their picture no
             planning sister incentive very one for able they're he back just and
             in the certainly and of post as,
           </p>
 
-          <button className="text-xs xl:text-sm 2xl:text-base gradient-button py-2 sm:py-3 2xl:py-4 px-6 sm:px-8">
+          {/* <button className="text-xs xl:text-sm 2xl:text-base gradient-button py-2 sm:py-3 2xl:py-4 px-6 sm:px-8">
             CONTACT US
-          </button>
+          </button> */}
         </div>
         <div className="flex-1 flex items-center justify-end">
           <img
