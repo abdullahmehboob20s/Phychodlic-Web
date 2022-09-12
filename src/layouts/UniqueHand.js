@@ -38,14 +38,10 @@ function UniqueHand() {
               any and avoid our move that logging accompany his parameters been
               news I essential when what holding.
             </p>
-            <p className="text-xs lg:text-base xl:text-xl text-white leading-[1.5] mb-6 xl:mb-8">
+            <p className="text-xs lg:text-base xl:text-xl text-white leading-[1.5]">
               The sense he my their we time. To of, that day and her in armour
               any and avoid our.
             </p>
-
-            <button className="gradient-button py-2 xl:py-3 px-6 text-10px lg:text-xs xl:text-base">
-              CONTACT US
-            </button>
           </div>
         </div>
       </div>

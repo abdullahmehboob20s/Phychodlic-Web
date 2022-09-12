@@ -32,7 +32,7 @@ function App() {
       <div className="mb-24 xl:mb-150px" id="The team">
         <Team />
       </div>
-      <div className="mb-24 sm:mb-28 lg:mb-36 xl:mb-200px">
+      <div className="mb-24 sm:mb-28 lg:mb-36 xl:mb-200px" id="private-sales">
         <JoinPrivateSale />
       </div>
       <Footer />

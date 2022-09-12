@@ -1,10 +1,28 @@
+import { useState, useRef, useEffect } from "react";
 import RoadmapCard from "components/RoadmapCard";
 import Title from "components/Title";
-import React from "react";
 
 function Roadmap() {
+  const roadmap = useRef(null);
+  const roadmapLine = useRef(null);
+  const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    const handler = () => {
+      let a = window.scrollY - roadmap.current["offsetTop"];
+      let value = a + window.innerHeight / 2;
+      setValue(value);
+    };
+
+    window.addEventListener("scroll", handler);
+
+    return () => {
+      window.removeEventListener("scroll", handler);
+    };
+  });
+
   return (
-    <div className="relative py-14">
+    <div className="relative py-14" ref={roadmap}>
       <div className="container">
         <div className="mb-12 md:mb-16 xl:mb-20">
           <Title>
@@ -13,7 +31,15 @@ function Roadmap() {
         </div>
 
         <div className="grid grid-cols-2 w-full max-w-[836px] mx-auto relative">
-          <div className="space-y-8">
+          <div className="roadmap-line rounded-full absolute top-0 left-1/2 -translate-x-1/2 w-1 h-full bg-transparent overflow-y-hidden">
+            <div
+              ref={roadmapLine}
+              className="w-full bg-green"
+              style={{ height: value + "px" }}
+            ></div>
+          </div>
+
+          <div className="space-y-12">
             <RoadmapCard
               direction="left"
               heading="phase-01"
@@ -33,7 +59,7 @@ function Roadmap() {
               desc="Quality comes first. we took our time to plan out everything and"
             />
           </div>
-          <div className="space-y-8 pt-20 lg:pt-100px">
+          <div className="space-y-12 pt-20 lg:pt-100px">
             <RoadmapCard
               direction="right"
               heading="phase-02"
@@ -53,8 +79,6 @@ function Roadmap() {
               desc="Quality comes first. we took our time to plan out everything and"
             />
           </div>
-
-          <div className="roadmap-line rounded-full absolute top-0 left-1/2 -translate-x-1/2 w-[2px] h-full"></div>
         </div>
       </div>
 

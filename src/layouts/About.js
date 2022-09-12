@@ -1,17 +1,10 @@
-import useMediaQuery from "hooks/useMediaQuery";
 import React from "react";
 
 function About() {
-  const isAbove640px = useMediaQuery("(min-width : 640px)");
-
   return (
-    <div className={`relative ${isAbove640px ? null : "box-styling"}`}>
+    <div className="relative">
       <div className="container flex items-center justify-center">
-        <div
-          className={`${
-            isAbove640px ? "box-styling" : null
-          } max-w-[580px] lg:max-w-[680px] xl:max-w-[846px] w-full mx-auto rounded-2xl py-10 lg:py-14 px-0 sm:px-12 lg:px-20 relative`}
-        >
+        <div className="box-styling max-w-[580px] lg:max-w-[680px] xl:max-w-[846px] w-full mx-auto rounded-2xl py-10 lg:py-14 px-8 sm:px-12 lg:px-20 relative">
           <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl text-white font-semibold mb-4 lg:mb-6 xl:mb-8 2xl:mb-9">
             About <span className="text-green">psychodlic</span> Work
           </h1>
